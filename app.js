@@ -11,10 +11,10 @@ let suits = ['Hearts', 'Clubs', 'Diamonds', 'Spades'];
 let values = ['Ace', 'King', 'Queen', 'Jack', 'Ten', 'Nice', 'Eight', 'Seven', 'Six', 'Five', 'Four', 'Three', 'Two'];
 
 // DOM variables - Set up some variables to access DOM
-let yourScore = document.getElementById('your-score');
-let newGameBtn = document.getElementById('new-game');
-let hitBtn = document.getElementById('hit-button');
-let stayBtn = document.getElementById('stay-button');
+let yourScore = document.querySelector('#your-score');
+let newGameBtn = document.querySelector('#new-game');
+let hitBtn = document.querySelector('#hit-button');
+let stayBtn = document.querySelector('#stay-button');
 
 // Game variables
 let gameStarted = false,
